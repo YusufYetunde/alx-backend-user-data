@@ -1,4 +1,4 @@
-oute module for the API """
+""" Route module for the API """
 
 from flask import Flask, jsonify, request,  abort, redirect, url_for
 from sqlalchemy.orm.exc import NoResultFound
